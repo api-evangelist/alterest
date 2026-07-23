@@ -1,0 +1,29 @@
+generated: '2026-07-17'
+method: searched
+probe: true
+source: https://www.alterest.co/trust
+url: https://www.alterest.co/trust
+certifications:
+- SOC 2 Type II
+controls:
+- id: encryption-at-rest
+  detail: AES-256 at rest
+- id: encryption-in-transit
+  detail: TLS 1.3 in transit
+- id: sso-saml
+  detail: SSO / SAML support for enterprise identity integration
+- id: rbac
+  detail: Role-based access controls
+- id: audit-logging
+  detail: Audit logging
+- id: data-residency
+  detail: Data residency options
+evidence:
+- source: https://www.alterest.co/trust
+  keywords:
+  - soc 2 type ii
+  - security & trust
+  - aes-256
+  - tls 1.3
+notes: Security & Trust page names an annual SOC 2 Type II audit of security controls;
+  no responsible-disclosure policy, bug bounty, or security contact email is published.

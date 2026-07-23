@@ -1,7 +1,28 @@
 aid: alterest
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alterest.png
 name: Alterest
-description: Alterest is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Alterest is the operating platform for asset-based finance (ABF), giving
+  credit funds, banks, specialty lenders, and loan originators verification-first
+  workflows, a unified data model, and AI-assisted controls over capital deployment,
+  SPV operations, and asset origination. The platform digitizes facility management,
+  borrowing-base calculations, trigger and covenant monitoring, multi-party workflows,
+  and automated investor reporting, while running daily verification, tape-to-collections
+  matching, integrity checks, and double-pledge detection to prevent fraud. It replaces
+  fragmented spreadsheets and email with a system of record, portfolio analytics,
+  immutable audit trails, and SFTP plus API data feeds to lender systems. Founded
+  in 2016 and based in London, Alterest oversees $15B+ in capital across 250+ transactions,
+  9+ asset classes, and 4+ regions (US, UK, EU, APAC), and is backed by Seedcamp.
 url: https://raw.githubusercontent.com/api-evangelist/alterest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +35,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Fintech
+- Asset-Based Finance
+- Private Credit
+- Structured Finance
+- Loan Monitoring
+- Securitization
+- Data Infrastructure
+- Verification
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://alterest.co
+  url: https://alterest.co
+- type: Support
+  url: https://www.alterest.co/contact
+- type: TrustCenter
+  url: https://www.alterest.co/trust
+- type: Compliance
+  url: https://www.alterest.co/trust
+- type: LinkedIn
+  url: https://uk.linkedin.com/company/alterestco
+- type: DomainSecurity
+  url: security/alterest-domain-security.yml
+- type: TrustCenter
+  url: security/alterest-trust-center.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
